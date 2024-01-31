@@ -428,3 +428,199 @@ li a{
 li a:hover{
    background-color: #111;
 }
+
+/* Rounded Border */
+#rcorners1{
+   border-radius: 25px;
+   background: #73AD21;
+   padding: 20px;
+   width: 200px;
+   height: 150px;
+}
+
+#rcorners2{
+   border-radius: 25px;
+   background: #73AD21;
+   padding: 20px;
+   width: 200px;
+   height: 150px;
+}
+
+#rcorners3{
+   color: red;
+   border-radius: 25px;
+   background-image: url(/images/logo.png);
+   background-position: left top;
+   background-repeat: no-repeat;
+   padding: 20px;
+   width: 200px;
+   height: 150px;
+}
+
+/* Broder image */
+#rcorners3{
+   border-radius: 25px;
+   border-image-source:url(/images/logo.png);
+   border-image-repeat: round;
+   border-image-slice: 30;
+   border-image-width: 10px;
+   padding: 20px;
+}
+
+/* Multiple background */
+
+div{
+   border: 1px solid black;
+   height: 120px;
+   width: 150px;
+   background-image: url(/images/f95f5676571b30e0b79d23e5d75b78d7.jpg);
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+
+div{
+   border: 1px solid black;
+   height: 120px;
+   width: 150px;
+   background-image: url(/images/f95f5676571b30e0b79d23e5d75b78d7.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.box{
+   width: 250px;
+   height: 150px;
+   padding: 10px;
+   border: 6px dashed #333;
+   background: orange;
+}
+
+.clip1{
+   background-clip: border-box;
+}
+
+.clip2{
+   background-clip: padding-box;
+}
+
+.clip3{
+   background-clip: content-box;
+}
+
+
+/*  CSS-Gradients */
+
+#grad1{
+   height: 100px;
+   background-color: red;
+   background-image: linear-gradient(red,yellow);
+}
+
+#grad1{
+   height: 150px;
+   width: 200px;
+   background-image: radial-gradient(red,yellow,green);
+}
+
+
+/* Css Shadow */
+
+h1{
+   text-shadow: 2px 2px;
+}
+
+h2{
+   text-shadow: 2px 2px red;
+}
+
+h3{
+   text-shadow: 2px 2px 5px red;
+}
+
+h4{
+   color: white;
+   text-shadow: 2px 2px 5px #000000;
+}
+
+h5{
+   text-shadow: 0 0 4px #FF0000;
+}
+
+
+h6{
+   text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+p{
+   color: white;
+   text-shadow: 1px 1px 2px black, 0 0 25px blue,0 0 5px darkblue;
+}
+
+/* Css Animation */
+
+@keyframes example{
+   from{background-color: red:}
+   to{background-color: yellow;}
+}
+
+div {
+   width: 100px;
+   height: 100px;
+   background-color: red;
+   animation-name: example;
+   animation-duration: 4s;
+}
+
+/* Pseudo Classes */
+/* It is Hover */
+button:hover{
+   color: aqua;
+   background-color: bisque;
+}
+
+/* It is active */
+button:active{
+   border: 10px solid red;
+}
+
+
+/* It is Focus */
+button:focus{
+   background-color: pink;
+   color: white;
+}
+
+/* Flex Box */
+.parent{
+   background-color: red;
+   display: flex;
+}
+
+.child{
+   height: 100px;
+   width: 100px;
+   background-color: aqua;
+   border: 1px solid brown;
+}
+
+.demo1{
+   background-color: blueviolet;
+}
+
+/* Media Qureis */
+/* For Maximum */
+
+@media (max-width: 600px){
+   h2{
+      color: aqua;
+   }
+}
+
+/* For Minimum Width */
+
+@media (min-width: 600px){
+   h2{
+      color: yellowgreen;
+   }
+}
