@@ -53,3 +53,12 @@ d) none style<br>
 3-Border<br>
 4-Rounder Border<br>
 5-Navigation Bar<br>
+1-Introduction to CSS 3<br>
+2-Box shadow<br>
+3-Rounded Borders<br>
+4-Multiple background
+5-Animation <br>
+6-Psuedo class <br>
+7-Flex box<br>
+8-Media Queriy<br> 
+9-Overflow<br>
