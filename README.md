@@ -5,3 +5,11 @@ Property<br>
 Value<br>
 Types Css<br>
 Inline-Internal-External<br>
+Types of CSS Selector<br>
+CSS Element Selector<br>
+CSS ID Selector<br>
+CSS Class Selector<br>
+CSS Universal Selector<br>
+CSS Group Selector<br>
+CSS Descendent Selector<br>
+CSS Child Selector<br>
