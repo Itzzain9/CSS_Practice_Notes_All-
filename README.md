@@ -48,3 +48,8 @@ a) Block element <br>
 b) Inline element<br>
 c) Inline block <br>
 d) none style<br>
+1-Margin <br>
+2-Padding<br>
+3-Border<br>
+4-Rounder Border<br>
+5-Navigation Bar<br>
