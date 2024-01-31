@@ -124,3 +124,132 @@ body{
    background-attachment: fixed;
    margin-left: 200px;
 }
+
+/* Links in Css */
+
+/* unvisited link */
+a:link{
+   color: red;
+}
+
+/* Visited Links */
+a:visited{
+   color: green;
+}
+
+/*Mouse Over Link  */
+a:hover{
+   color: hotpink;
+}
+
+/* Selected Link */
+a:active{
+   color: blue;
+}
+
+/* Text directiom in  Links */
+
+a:link{
+   text-decoration: none;
+}
+
+a:visited{
+   text-decoration: none;
+}
+
+a:hover{
+   text-decoration: underline;
+}
+
+a:active{
+   text-decoration: underline;
+}
+
+/* Visited Links */
+a:visited{
+   background-color: green;
+}
+
+/* Background Color */
+a:link{
+   background-color: yellow;
+}
+
+/*Mouse Over Link  */
+a:hover{
+   background-color: lightseagreen;
+}
+
+/* Selected Link */
+a:active{
+   background-color: hotpink;
+}
+
+
+/* Selected Link */
+a:active{
+   background-color: hotpink;
+}
+
+/* Styling List With Colors */
+ul{
+   background: #f99;
+   padding: 20px;
+}
+
+
+/* ol{ */
+   background: #3399ff;
+   padding: 20px;
+}
+
+
+/* ul li{ */
+   background: #ffe5e5;
+   padding: 20px;
+   margin-left: 35px;
+}
+
+ol li{
+   background: #f99;
+   margin-left: 35px;
+}
+
+/* Css Display */
+Block Element
+a{
+   display: block;
+}
+
+
+/* Inline Element */
+li{
+   display: inline;
+}
+
+/* Css Border width  */
+p.one{
+   border-style: solid;
+   border-width: 5px;
+}
+
+p.two{
+   border-style: solid;
+   border-width: medium;
+}
+
+p.three{
+   border-style: solid;
+   border-width: 1px;
+}
+
+p{
+   border-top-style: dotted;
+   border-right-style: solid;
+   border-bottom-style: dotted;
+   border-left-style: solid;
+}
+
+p{
+   border-style: dotted solid double dashed;
+}
