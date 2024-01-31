@@ -253,3 +253,178 @@ p{
 p{
    border-style: dotted solid double dashed;
 }
+
+/* Css Border width  */
+p.one{
+   border-style: solid;
+   border-width: 5px;
+}
+
+p.two{
+   border-style: solid;
+   border-width: medium;
+}
+
+p.three{
+   border-style: solid;
+   border-width: 1px;
+}
+
+p{
+   border-top-style: dotted;
+   border-right-style: solid;
+   border-bottom-style: dotted;
+   border-left-style: solid;
+}
+
+
+p{
+   border-style: dotted solid double dashed;
+}
+
+ /* Border Radius */
+p{
+   /* border: 2px solid red; */
+   border-radius: 5px;
+}
+
+/* Css Margin */
+p.one{
+   border: 2px solid orange;
+   margin-left: 30px;
+}
+
+p.two{
+   border: 2px solid orange;
+   margin-left: 20%;
+}
+
+p.three{
+   border: 2px solid orange;
+   margin-left: auto;
+}
+
+/* Css Pading */
+p.one{
+   border: 5px solid rgb(177, 19, 98);
+   padding-left: 30px;
+}
+
+p.two{
+   /* border: 5px solid hotpink; */
+   padding-left: 20%;
+}
+
+p.three{
+   border: 5px solid hotpink;
+   padding-left: auto;
+}
+
+/* Outline Offset */
+p{
+   margin: 30px;
+   background-color: yellow;
+   border: 1px solid black;
+   outline: red;
+   outline-offset: 15px;
+}
+
+/* Css Float */
+#header,#footer{
+   background-color: #EEEEEE;
+   padding: 15px;
+}
+
+#sidebar{
+   float: left;
+   width: 25%;
+   background-color: lightblue;
+   padding: 30px 10px;
+}
+
+#sidebar ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+#sidebar li{
+   padding: 6px;
+   margin-bottom: 10px;
+   background-color: #10A2FF;
+   color: #ffffff;
+}
+
+/* #content{ */
+   width: 75%;
+   margin-left: 25%;
+   padding: 10px;
+}
+
+#main-body{
+   overflow: auto;
+}
+
+
+/* Navigation bar */
+/* Vertical Navbar */
+ul {
+   list-style-type: none;
+   margin: 10px;
+   padding: 5px;
+}
+
+ul {
+   list-style-type: none;
+   margin: 5px;
+   padding: 5px;
+   width: 2020px;
+}
+
+li a{
+   display: block;
+   color: #000;
+   padding: 8px 16px;
+   text-decoration: none;
+}
+li a:hover{
+   background-color: #555;
+   color: white;
+}
+
+/* Horizontal Navbar */
+
+ul {
+   list-style-type: none;
+   margin: 5px;
+   padding: 5px;
+   width: 2020px;
+}
+
+li{
+   display: inline;
+}
+
+ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #333;
+}
+
+li{
+   float: left;
+}
+
+li a{
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14x 16px;
+   text-decoration: none;
+}
+
+li a:hover{
+   background-color: #111;
+}
